@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Training_12_AdvancedMultipleOfThree {
 
     /**
-     * Training 11
+     * Training 12
      * 
      * 以下のルールに基づいた文字列を画面に出力する
      *
