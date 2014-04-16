@@ -1,6 +1,5 @@
 package asia.sonix.training.java;
 
-import java.io.IOException;
 
 public class Training_12_AdvancedMultipleOfThree {
 
@@ -20,7 +19,7 @@ public class Training_12_AdvancedMultipleOfThree {
      * (上記は一例です。好きなようにアホっぽく表示してください)
      * 
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         
     }
 }

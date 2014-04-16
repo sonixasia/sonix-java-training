@@ -13,24 +13,19 @@ public class Training_06_PrimeNumber {
      */
     public static void main(String[] args) throws IOException {
         BufferedReader input = new BufferedReader (new InputStreamReader (System.in));
-        int number;
-
+        long number;
+        
         try {
             System.out.println("数字を入力してください");
             System.out.print("> ");
             String str = input.readLine();
-            number = Integer.parseInt(str);
+            number = Long.parseLong(str);
         } catch (NumberFormatException e) {
             System.out.println("数字を入力してください!!!!!!");
             return;
         } finally {
             input.close();
         }
-        
-        System.out.println("number = " + number);
-        
-        // 素数であるか判定し、メッセージを出力する
-        
     }
 
 }
